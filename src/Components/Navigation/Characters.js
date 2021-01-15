@@ -1,12 +1,12 @@
 import React,{ Fragment } from 'react';
 
-const Characters = (props) => {
+const Characters = () => {
     return (
-      <div className="characters">
-          <p>Characters</p>
-      </div>
+        <div className="characters">
+            <p>Characters</p>
+        </div>
     );
-  };
-  
-  export default Characters;
+};
+
+export default Characters;
   
