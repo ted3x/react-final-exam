@@ -1,11 +1,11 @@
 import './App.css';
 import { Route, Switch, Link, BrowserRouter } from 'react-router-dom';
-import Header from './Components/Navigation/Header'
-import MainScreen from './Components/Navigation/MainScreen/MainScreen'
-import FindCharacter from './Components/Navigation/FindCharacter'
-import Characters from './Components/Navigation/Characters'
-import SignUp from './Components/Navigation/SignUp'
-import AboutMe from './Components/Navigation/AboutMe/AboutMe'
+import Header from './Components/header'
+import MainScreen from './Components/MainScreen/mainScreen'
+import FindCharacter from './Components/findCharacter'
+import Characters from './Components/Characters/characters'
+import SignUp from './Components/signUp'
+import AboutMe from './Components/AboutMe/aboutMe'
 import React,{ Fragment } from 'react';
 
 const NavBar = () => {
